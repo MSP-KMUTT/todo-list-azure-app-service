@@ -1,0 +1,9 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo list demo with Microsoft Azure App Service",
+  "main": "index.js",
+  "repository": "https://github.com/MSP-KMUTT/todo-list-azure-app-service",
+  "author": "Jirachai Chansivanon <antronic.inc@gmail.com>",
+  "license": "MIT"
+}
