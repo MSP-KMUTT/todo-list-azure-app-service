@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/MSP-KMUTT/todo-list-azure-app-service",
   "author": "Jirachai Chansivanon <antronic.inc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
 }

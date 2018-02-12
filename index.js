@@ -5,7 +5,7 @@ const server = createServer((req, res) => {
   res.end('Hello KMUTT!');
 })
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 1337;
 server.listen(port)
 
 console.log('Server is running -> ' + port)
