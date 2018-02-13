@@ -1,7 +1,7 @@
 const { createServer } = require('http')
 
 const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' })
+  res.writeHead(200, { 'Content-Type': 'text/html' })
   const html = `
     <h1>MSP KMUTT มาเยือน</h1>
   `;
