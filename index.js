@@ -3,6 +3,9 @@ const { createServer } = require('http')
 const server = createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' })
   const html = `
+    <head>
+      <meta charset="utf-8"/>
+    </head>
     <h1>MSP KMUTT มาเยือน</h1>
   `;
   res.end(html);
